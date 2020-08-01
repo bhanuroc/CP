@@ -10,7 +10,6 @@ using ll =long long;
 #define fi first
 #define sc second
 #define mp make_pair
-
 void setIO(string name = "") { 
     ios_base::sync_with_stdio(0); cin.tie(0); // see Fast Input & Output
     if(sz(name)){
@@ -18,8 +17,6 @@ void setIO(string name = "") {
         freopen((name+".out").c_str(), "w", stdout);
     }
 }
-
-
 int main() {
     //setIO("outofplace");
     int n;
@@ -36,7 +33,6 @@ int main() {
       g=0;
       h=1;
     }
-    
     for(int i=1;i<n;i++){
       if( i!=n-1 && a[i]>a[i+1] && a[i-1]<a[i+1]){
         f=1;
@@ -51,7 +47,6 @@ int main() {
         break;
       }
     }
-    
     if(f){
       int l=0;
       
@@ -75,26 +70,4 @@ int main() {
     }else{
       cout<<0;
     }
-    
-
-
-  
-  
-  
-  
-  
 }
-  
-    
-
-
-
-
-
-
-  
-  
-  
-
-
-
