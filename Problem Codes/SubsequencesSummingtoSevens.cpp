@@ -57,3 +57,9 @@ int main() {
 
 
 }
+// http://www.usaco.org/index.php?page=viewproblem2&cpid=595
+/* Problem Explanation: We have an array and we need to think of the longest contiguous subarray having the sum of elements divisible by 7. Suppose we have a subarray {l,r},
+   (a[r]-a[l-1])%7 should be equal to 0, where array a is converted to its sum of prefixs array. So , we need to just check this for 7 remainders, i.e. 0,1,2,3,4,5,6.
+   */
+
+
