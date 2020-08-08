@@ -1,3 +1,2 @@
-# firstone
-
-My name is Bhanu Pratap Singh Sengar
+# Problems
+This repository will contain codes to the Problems.
